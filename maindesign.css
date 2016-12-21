@@ -6,4 +6,13 @@ body{
     font-family: "Muli";
 }
 h1, p{color: #fff;font-weight: bolder}
+.but button{
+    border-bottom: 2px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+.but a{
+    color: #fff;
+    text-decoration: none;
+}
 

@@ -1,11 +1,21 @@
    function evaluar(){
-    var aNum = parseInt(document.getElementById("anum").value);
-    var bNum = parseInt(document.getElementById("bnum").value);
+    var aNum = parseInt(document.getElementById("aNum").value);
+    var bNum = parseInt(document.getElementById("bNum").value);
+    var negative = document.getElementById("negative").value;
     var salida = document.getElementById("salida");
-    
-    if (aNum == 10 || bNum == 10 || aNum + bNum == 10){
-        document.getElementById("salida").innerHTML="1";
+    var isNegative = false;
+       if (negative == 1)
+           isNegative == true;
+       
+    if (aNum < 0 && bNum > 0 && !isNegative || aNum > 0 && bNum < 0 && !isNegative){
+        salida.innerHTML = "1";
     }else{
-        document.getElementById("salida").innerHTML="0";
-    }
+        if(aNum < 0 && bNum < 0 && isNegative){
+            salida.innerHTML = "1";
+        }else{
+            salida.innerHTML = "0";
+        }
+            
+    }   
+   
 }

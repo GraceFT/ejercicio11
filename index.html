@@ -2,26 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Parrot Trouble</title>
+    <title>PosNeg</title>
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="shortcut icon" href="buho.ico">
 </head>
 <body>
    <div class="container">
        <div class="row">
-            <h1 class="text-center"> As 10</h1>
-            <p class="text-center">Evaluamos los numeros enteros</p>
+            <h1 class="text-center">PosNeg</h1>
+            <p class="text-center">Evaluar dos numeros negativos o positivos</p>
        </div>
        <hr>
         <div class="row">
-            <div class="col-md-2 col-md-offset-5">
-               <input  id="anum" class="form-control" placeholder="Escribe un numero" type="text">
-            
+            <div class="col-md-5 col-md-offset-3">
+              <label for="aNum">Coloca un numero positivo o negativo </label>
+               <input type="text" id="aNum" placeholder="positivo o negativo" class="form-control">
            </div>
-               
-            <div class="col-md-2 col-md-offset-5">
-                <input  id="bnum" class="form-control" placeholder="Escribe un numero" type="text">  
-            </div>
+        </div>
+        <div class="row">      
+            <div class="col-md-5 col-md-offset-3">
+              <label for="bNum">Coloca un numero positivo o negativo </label>
+               <input type="text" id="bNum" placeholder="positivo o negativo" class="form-control">
+           </div>
+        </div>
+        <br>
+        <div class="row">      
+            <div class="col-md-5 col-md-offset-3">
+              <label for="negative">Evaluemos si es negativo y positivo</label>
+               <select id="negative" class="form-control">
+                    <option value="1">True</option>
+                    <option value="2">False</option>  
+               </select>
+           </div>
         </div>
         <br>
         <div class="col-md-8 col-md-offset-2 text-center">

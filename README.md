@@ -1,4 +1,4 @@
-# Ejercicio10: as10
+# Ejercicio11: posNeg
 
 Inicio: Evaluar numeros con valor negativo.
 

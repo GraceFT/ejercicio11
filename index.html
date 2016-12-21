@@ -1,0 +1,36 @@
+<!DOCTOYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Parrot Trouble</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="shortcut icon" href="buho.ico">
+</head>
+<body>
+   <div class="container">
+       <div class="row">
+            <h1 class="text-center"> As 10</h1>
+            <p class="text-center">Evaluamos los numeros enteros</p>
+       </div>
+       <hr>
+        <div class="row">
+            <div class="col-md-2 col-md-offset-5">
+               <input  id="anum" class="form-control" placeholder="Escribe un numero" type="text">
+            
+           </div>
+               
+            <div class="col-md-2 col-md-offset-5">
+                <input  id="bnum" class="form-control" placeholder="Escribe un numero" type="text">  
+            </div>
+        </div>
+        <br>
+        <div class="col-md-8 col-md-offset-2 text-center">
+        <button onclick="evaluar()" class="btn btn-danger" class="text-center">EVALUAR</button>
+        <br>
+        <br>
+        <div id="salida" style="font-size:20px; color:red"; class="text-center";>-</div>
+       </div> 
+    </div>   
+</body>
+ <script src="main.js"></script>
+</html>
